@@ -1,0 +1,27 @@
+{
+  "name": "codeinc/printable-interface",
+  "version": "1.0.0",
+  "description": "A simple PHP interface for iterable collections",
+  "homepage": "https://github.com/CodeIncHQ/PrintableInterface",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4": {"CodeInc\\PrintableInterface\\": "src/"}
+  },
+  "authors": [
+    {
+      "name": "Joan Fabrégat",
+      "email": "joan@codeinc.fr",
+      "homepage": "https://www.codeinc.fr",
+      "role": "developer"
+    }
+  ],
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    }
+  }
+}
